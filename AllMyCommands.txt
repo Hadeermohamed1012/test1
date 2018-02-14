@@ -1,0 +1,976 @@
+
+User@User-PC MINGW64 /
+$ git clone https://github.com/Hadeermohamed1012/test1.git
+fatal: could not create work tree dir 'test1': Permission denied
+
+User@User-PC MINGW64 /
+$ mkdir test1
+mkdir: cannot create directory ‘test1’: Permission denied
+
+User@User-PC MINGW64 /
+$ cd
+
+User@User-PC MINGW64 ~ (master)
+$ pwd
+/c/Users/User
+
+User@User-PC MINGW64 ~ (master)
+$ git clone https://github.com/Hadeermohamed1012/test1.git
+Cloning into 'test1'...
+warning: You appear to have cloned an empty repository.
+
+User@User-PC MINGW64 ~ (master)
+$ ls
+ 4F2zjfSrEea
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+'my project'/
+ NetHood@
+ network/
+ networkproject/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ project/
+ qms-bmh1.bmp
+ qms-bmh2.bmp
+ qms-bmh3.bmp
+ quartus_web_rules_file.txt
+ quartus2.ini
+ quartus2.qreg
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ test1/
+ Videos/
+
+User@User-PC MINGW64 ~ (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .bash_history
+        .gimp-2.8/
+        .gitconfig
+        .metadata/
+        .recommenders/
+        .thumbnails/
+        4F2zjfSrEea
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        my project/
+        network/
+        networkproject/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        qms-bmh1.bmp
+        qms-bmh2.bmp
+        qms-bmh3.bmp
+        quartus2.ini
+        quartus2.qreg
+        quartus_web_rules_file.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@User-PC MINGW64 ~ (master)
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+User@User-PC MINGW64 ~ (master)
+$ mkdir test1
+mkdir: cannot create directory ‘test1’: File exists
+
+User@User-PC MINGW64 ~ (master)
+$ ls
+ 4F2zjfSrEea
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+'my project'/
+ NetHood@
+ network/
+ networkproject/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ project/
+ qms-bmh1.bmp
+ qms-bmh2.bmp
+ qms-bmh3.bmp
+ quartus_web_rules_file.txt
+ quartus2.ini
+ quartus2.qreg
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ test1/
+ Videos/
+
+User@User-PC MINGW64 ~ (master)
+$ ls
+ 4F2zjfSrEea
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+'my project'/
+ NetHood@
+ network/
+ networkproject/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ project/
+ qms-bmh1.bmp
+ qms-bmh2.bmp
+ qms-bmh3.bmp
+ quartus_web_rules_file.txt
+ quartus2.ini
+ quartus2.qreg
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ test1/
+ Videos/
+
+User@User-PC MINGW64 ~ (master)
+$ dir
+4F2zjfSrEea
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+Music
+My\ Documents
+my\ project
+NetHood
+network
+networkproject
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+Pictures
+PrintHood
+project
+qms-bmh1.bmp
+qms-bmh2.bmp
+qms-bmh3.bmp
+quartus_web_rules_file.txt
+quartus2.ini
+quartus2.qreg
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+test1
+Videos
+
+User@User-PC MINGW64 ~ (master)
+$ cd test1
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        1.1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 1.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m'1.1 section'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m '1.1 section'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ cd
+
+User@User-PC MINGW64 ~ (master)
+$ git commit -m 'first section'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~ (master)
+$ git commit -m "first section"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~ (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .bash_history
+        .gimp-2.8/
+        .gitconfig
+        .metadata/
+        .recommenders/
+        .thumbnails/
+        4F2zjfSrEea
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        my project/
+        network/
+        networkproject/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        qms-bmh1.bmp
+        qms-bmh2.bmp
+        qms-bmh3.bmp
+        quartus2.ini
+        quartus2.qreg
+        quartus_web_rules_file.txt
+        test1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@User-PC MINGW64 ~ (master)
+$ ls
+ 4F2zjfSrEea
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+'my project'/
+ NetHood@
+ network/
+ networkproject/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ project/
+ qms-bmh1.bmp
+ qms-bmh2.bmp
+ qms-bmh3.bmp
+ quartus_web_rules_file.txt
+ quartus2.ini
+ quartus2.qreg
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ test1/
+ Videos/
+
+User@User-PC MINGW64 ~ (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .bash_history
+        .gimp-2.8/
+        .gitconfig
+        .metadata/
+        .recommenders/
+        .thumbnails/
+        4F2zjfSrEea
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        my project/
+        network/
+        networkproject/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        qms-bmh1.bmp
+        qms-bmh2.bmp
+        qms-bmh3.bmp
+        quartus2.ini
+        quartus2.qreg
+        quartus_web_rules_file.txt
+        test1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@User-PC MINGW64 ~ (master)
+$ cd test1
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ get status
+bash: get: command not found
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m "first section"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 3.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt  3.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ get status
+bash: get: command not found
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+        new file:   3.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 5.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git stats
+git: 'stats' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt  3.1.txt  5.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+        new file:   3.1.txt
+        new file:   5.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git rm --cached 3.1.txt
+rm '3.1.txt'
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+        new file:   5.1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        3.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git rm--cached "3.1.txt"
+git: 'rm--cached' is not a git command. See 'git --help'.
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git rm --cached "3.1.txt"
+fatal: pathspec '3.1.txt' did not match any files
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt  3.1.txt  5.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+        new file:   5.1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        3.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git revert 3.1.txt
+fatal: bad revision '3.1.txt'
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git revert '3.1.txt'
+fatal: bad revision '3.1.txt'
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 3.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.1.txt
+        new file:   3.1.txt
+        new file:   5.1.txt
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m 'after deleting and turn back'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 3.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m 'after deleting and turn back'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m "after deleting and turn back"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 3.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 3.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m 'after deleting and turn back'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ cd test1
+bash: cd: test1: No such file or directory
+
+User@User-PC MINGW64 ~/test1 (master)
+$ cd
+
+User@User-PC MINGW64 ~ (master)
+$ pwd
+/c/Users/User
+
+User@User-PC MINGW64 ~ (master)
+$ cd test1
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m '"after deleting and turn back"'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ cd
+
+User@User-PC MINGW64 ~ (master)
+$ git commit -m"after deleting and turn back"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~ (master)
+$
+
+User@User-PC MINGW64 ~ (master)
+$ cd
+
+User@User-PC MINGW64 ~ (master)
+$ cd test1
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m 'after deleting and turn it back'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@User-PC.(none)')
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git config --global user.name "hadeer"
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git config --global user.email "hadeer.mohamed1012@gmail.com"
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+gui.recentrepo=C:/Users/User/Desktop/semster 6
+gui.recentrepo=C:/Users/User/project
+user.name=hadeer
+user.email=hadeer.mohamed1012@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Hadeermohamed1012/test1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add 3.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git commit -m 'after deleting and turn it back'
+[master (root-commit) eefcc24] after deleting and turn it back
+ 3 files changed, 184 insertions(+)
+ create mode 100644 1.1.txt
+ create mode 100644 3.1.txt
+ create mode 100644 5.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$
+
+User@User-PC MINGW64 /
+$ cd
+
+User@User-PC MINGW64 ~ (master)
+$ cd test1
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt  3.1.txt  5.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git add README.md
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   README.md
+
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt  3.1.txt  5.1.txt  README.md
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git branch ReadMe
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git checkout ReadMe
+Switched to branch 'ReadMe'
+A       README.md
+
+User@User-PC MINGW64 ~/test1 (ReadMe)
+$ add git README.md
+bash: add: command not found
+
+User@User-PC MINGW64 ~/test1 (ReadMe)
+$ git add README.md
+
+User@User-PC MINGW64 ~/test1 (ReadMe)
+$ git commit -m "create quantum readme"
+[ReadMe d671fc1] create quantum readme
+ 1 file changed, 14 insertions(+)
+ create mode 100644 README.md
+
+User@User-PC MINGW64 ~/test1 (ReadMe)
+$ ls
+1.1.txt  3.1.txt  5.1.txt  README.md
+
+User@User-PC MINGW64 ~/test1 (ReadMe)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt  3.1.txt  5.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git log
+commit eefcc240f0ece10b0507780da7d512705b540c35 (HEAD -> master, origin/master)
+Author: hadeer <hadeer.mohamed1012@gmail.com>
+Date:   Tue Feb 13 21:25:04 2018 +0200
+
+    after deleting and turn it back
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+User@User-PC MINGW64 ~/test1 (master)
+$ ls
+1.1.txt  3.1.txt  5.1.txt
+
+User@User-PC MINGW64 ~/test1 (master)
+$ git merge README
+Updating eefcc24..d671fc1
+Fast-forward
+ README.md | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 README.md
