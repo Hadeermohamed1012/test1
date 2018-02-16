@@ -1,4 +1,4 @@
-**Project Tittle **:(Sprint0)  
+**Project Tittle**:(Sprint0)  
 
 **Getting Started**:(It is my first repositry and it contains 3 sections from bookChacon, Scott, and
 Ben Straub. Pro Git. Apress, 2014
